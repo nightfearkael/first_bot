@@ -1,7 +1,7 @@
 import telebot
 from telebot.types import InputMediaPhoto
 
-bot = telebot.TeleBot('7593376134:AAExPwpZwz72p2oJP1BM1gadLzpC_rOo-qw')
+bot = telebot.TeleBot('place_bot_token_here')
 
 
 @bot.message_handler(commands=['start'])
